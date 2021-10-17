@@ -1,1 +1,2 @@
-# deep-learning
+# Glass Identification
+The purpose of the dataset is predict the class of the Glass based upon the given features there’re around 9 features (Id number, RI, Na, Mg, Al, Si, K, Ca, Ba) In which all the columns except the Id columns plays an important role in determining the type of the Glass which also our target variable there are 7 types of glasses are in the description provided about the dataset but in a dataset of glasses we don’t have data about type 4 glass each type of glass has it’s own name but in a data the target variable in numbered from 1 to 7. So, based upon the available features we have to predict the target variable (type of glass).
