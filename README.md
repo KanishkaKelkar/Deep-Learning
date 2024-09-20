@@ -1,2 +1,11 @@
-# Glass Identification
-The purpose of the dataset is predict the class of the Glass based upon the given features there’re around 9 features (Id number, RI, Na, Mg, Al, Si, K, Ca, Ba) In which all the columns except the Id columns plays an important role in determining the type of the Glass which also our target variable there are 7 types of glasses are in the description provided about the dataset but in a dataset of glasses we don’t have data about type 4 glass each type of glass has it’s own name but in a data the target variable in numbered from 1 to 7. So, based upon the available features we have to predict the target variable (type of glass).
+# Multiclass Glass Identification
+1)	Developed a deep learning model to classify glass types using multiclass classification approach on Glass Identification dataset.
+2)	Preprocessed the dataset by normalizing features and handling class imbalance to improve model performance.
+3)	Designed and implemented a neural network architecture using frameworks like TensorFlow / Keras experimenting with different layers, activation function and optimizers.
+4)	Tuned hyper-parameter such as learning rate, batch size and number of epochs using grid search to optimize model performance.
+5)	Employed techniques such as batch normalization to prevent overfitting and improve generalization.
+6)	Evaluated Model performance using accuracy, precision, recall, F1-score and confusion matrix to assess the classification of multiple glass types.
+7)	Visualized training and validation loss and accuracy curves to monitor the model’s learning process and identify areas for improvement.
+8)	Achieved 0.7065 Score in classifying the glass types, showcasing the efficacy of deep learning for multiclass problems.
+
+
